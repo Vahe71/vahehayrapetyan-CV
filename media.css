@@ -1,0 +1,59 @@
+@media screen and (max-width: 1000px) {
+    header .container .content {
+        flex-direction: column;
+    }
+    header .container .content .contacts {
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .content .container .skill ul {
+        flex-wrap: wrap;
+    }
+    .content .container .skill ul li {
+        margin: 0 10px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .content .container .about-me .desc {
+        padding-left: 0;
+    }
+    .content .container .skill ul,
+    .content .container .programming-languages ul,
+    .content .container .languages ul {
+        padding: 20px 0;
+    }
+    .content .container .education span {
+        margin-left: 0;
+    }
+    header .container .content .name h1 {
+        font: 3rem 'Playball', cursive;
+    }
+    header .container .content .contacts ul li {
+        font: bold 1.4rem 'Poppins', sans-serif;
+    }
+    header .container .content .contacts ul li a, 
+    header .container .content .contacts ul li span {
+        font: 1.2rem 'Poppins', sans-serif;
+    }
+    h1 {
+        font: 1.7rem 'Merriweather', serif;
+    }
+    .content .container .about-me .desc span {
+        font: 1.2rem 'Poppins', sans-serif;
+    }
+    .content .container .education span {
+        font: 1.2rem 'Poppins', sans-serif;
+    }
+    .content .container .education span h2 {
+        font: 1.2rem 'Poppins', sans-serif;
+    }
+    .content .container .languages ul li {
+        font: 1.2rem 'Poppins', sans-serif;
+    }
+    footer .container .portfolio a {
+        font: 1.4rem 'Poppins', sans-serif;
+    }
+}
+@media screen and (max-width: 400px) {
+}

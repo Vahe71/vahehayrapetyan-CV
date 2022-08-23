@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(90deg, #2b5be0 0 10%, #6c4bf2 60% 100%);
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    overflow: hidden;
+}
+hr {
+    background: #fff;
+    height: 3px;
+    margin: 10px 0;
+    opacity: 0.8;
+}
+h1 {
+    font: 2rem 'Merriweather', serif;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.45);
+}
+header .container .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container .content .name {
+    text-align: center;
+}
+header .container .content .name h1 {
+    font: 4rem 'Playball', cursive;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.45);
+    letter-spacing: 5px;
+}
+header .container .content .contacts ul li {
+    list-style: none;
+    font: bold 1.7rem 'Poppins', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    background: rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+header .container .content .contacts ul li a,
+header .container .content .contacts ul li span {
+    font: 1.4rem 'Poppins', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+/* CONTENT  */
+.content {
+    margin-top: 30px;
+}
+.content .container .about-me .desc {
+    margin-top: 30px;
+    padding-left: 30px;
+}
+.content .container .about-me .desc span {
+    font: 1.4rem 'Poppins', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.45);
+}
+.content .container .skill {
+    margin-top: 50px;
+}
+.content .container .skill ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+.content .container .skill ul li {
+    font: 1.4rem 'Poppins', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.45);
+    list-style: none;
+}
+.content .container .skill ul li:before {
+    content: '\2713';
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: rgb(0, 206, 0);
+    margin-right: 10px;
+}
+.content .container .programming-languages {
+    margin-top: 50px;
+}
+.content .container .programming-languages ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.content .container .programming-languages ul li {
+    font: 1.4rem 'Poppins', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.45);
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.content .container .programming-languages ul li:hover {
+    transform: scale(1.1);
+}
+.content .container .programming-languages ul li img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+.content .container .education {
+    margin-top: 50px;
+}
+.content .container .education hr {
+    margin-bottom: 30px;
+}
+.content .container .education span {
+    font: 1.4rem 'Poppins', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.45);
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+.content .container .education span h2 {
+    font: 1.4rem 'Poppins', sans-serif;
+    color: rgb(0, 206, 0);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.45);
+    margin-left: 15px;
+}
+.content .container .languages {
+    margin-top: 50px;
+}
+.content .container .languages ul {
+    padding: 20px 30px;
+}
+.content .container .languages ul li {
+    font: 1.4rem 'Poppins', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.45);
+    list-style: none;
+}
+.content .container .languages ul li:nth-child(2)::after {
+    content: '\2605 \2605 \2605 \2605 \2606';
+    color: rgb(0, 206, 0);
+    font-size: 1.7rem;
+}
+.content .container .languages ul li:nth-child(3)::after {
+    content: '\2605 \2605 \2606 \2606 \2606';
+    color: rgb(0, 206, 0);
+    font-size: 1.7rem;
+}
+/* FOOTER */
+footer {
+    margin-bottom: 20px;
+}
+footer .container {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 30px;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+footer .container .portfolio a {
+    font: 1.7rem 'Poppins', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.45);
+    text-decoration: none;
+}
+footer .container .footer-content {
+    display: flex;
+    gap: 0 20px;
+}
+footer .container .footer-content img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    transition: 0.3s;
+}
+footer .container .footer-content img:hover {
+    transform: translateY(-10px);
+}
+
+
+
